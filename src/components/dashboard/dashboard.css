@@ -1,0 +1,213 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dashboard {
+  background-color: #F6F6F6;
+  min-height: 100vh;
+}
+
+.content-dashboard {
+  background-color: #F6F6F6;
+}
+
+.loader {
+  color: #6F6F6F !important;
+}
+
+.dashboard-right-side {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.notification {
+  margin-right: 10px;
+  margin-top: 10px !important;
+}
+
+.profile-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.title-dashboard {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 8px;
+  color: #1B1918;
+}
+
+.sub-title-dashboard {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 4px;
+  color: #6F6F6F;
+}
+
+.edit-button {
+  background-color: #1B1918 !important;
+  color: #fff !important;
+  margin-top: 10px !important;
+}
+
+.about-you-dashboard {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 18px;
+}
+
+.content-dashboard {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  letter-spacing: 0.5px;
+}
+
+.tab-dashboard {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  width: 0 !important;
+}
+
+.left-content-wrapper {
+  width: 90% !important;
+  background-color: #fff !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding: 20px !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 24px 40px !important;
+  border-radius: 12px;
+}
+
+.right-content-wrapper {
+  width: 95% !important;
+}
+
+.left-container-dashboard {
+  min-height: 100%;
+  max-width: 50% !important;
+  border-radius: 12px;
+  overflow-x: hidden;
+}
+
+.left-container-dashboard .dashboard-footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-top: 40px;
+  letter-spacing: 0.06em;
+  color: #6F6F6F;
+}
+
+.right-container-dashboard {
+  margin-top: 16px !important;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+.left-image {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.left-attributes {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.right-attributes {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.stats-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: -2px 10px !important;
+}
+
+.stats-dashboard {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 40px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  margin-left: 10px;
+  color: #6F6F6F;
+}
+
+.yellow-btn-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yellow-btn-align img {
+  margin-right: 10px !important;
+}
+
+.yellow-btn-align p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.upload-design-yellow {
+  max-width: 200px !important;
+  height: 40px !important;
+  position: absolute !important;
+  top: 100px;
+  right: 5%;
+  background-color: #FADD4B !important;
+}
+/*# sourceMappingURL=dashboard.css.map */

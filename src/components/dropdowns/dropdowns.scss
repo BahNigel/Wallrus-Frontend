@@ -1,0 +1,28 @@
+.dropdown {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 253, 253, 0.719),
+    rgb(246, 246, 246, 0)
+  );
+  text-align: center;
+  padding: 50px;
+}
+.margin-right-20 {
+  margin-right: 20px;
+}
+.dropdown-items {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+  .dropdown {
+    padding: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .dropdown {
+    padding: 20px;
+  }
+}

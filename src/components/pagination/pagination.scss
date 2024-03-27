@@ -1,0 +1,20 @@
+.page-no {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding: 7px 10px;
+  border-radius: 7px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+
+  &:hover {
+    border: 1px solid #000;
+  }
+
+  &--active {
+    background-color: #000;
+    color: #fff;
+  }
+}

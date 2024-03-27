@@ -1,0 +1,274 @@
+.main {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: #f6f6f6;
+}
+.mainLayout {
+  width: 100%;
+  display: flex;
+  padding: 0px 30px;
+  justify-content: space-between;
+}
+.profileBox {
+  border-radius: 12px;
+  margin-top: 20px;
+  width: 322px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profileText {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  margin-top: 10px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+.profileLevel {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+  /* grey dark */
+
+  color: #6f6f6f;
+}
+.profileLevelSvg,
+.rewardPoints {
+  margin-top: 6px;
+  width: 262px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.profileImg {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rewardPointText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+.rewardPointsValue {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+
+  /* Success */
+
+  color: #00b879;
+}
+.textt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  /* grey dark */
+
+  color: #6f6f6f;
+}
+.tab {
+  width: 135px !important;
+  font-size: 18px !important;
+  white-space: nowrap !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+
+.cart-container {
+  width: calc(100%-340px);
+
+  padding: 10px 20px;
+  margin: 0;
+}
+.card {
+  margin-top: 0px;
+  width: 664px;
+  height: 480px;
+  background: #ffffff;
+  border: 1px solid #dfe1e4;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Grey/Darkest */
+
+  color: #08090a;
+}
+.uploadtime {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.004em;
+
+  /* Grey/Darker */
+
+  color: #6d747a;
+}
+.cardProfileBox {
+  display: flex;
+  padding-left: 8px;
+  flex-direction: column;
+}
+.cardProfile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+}
+.headerText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  margin: 0px 8px;
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+.Image {
+  width: 660px;
+  height: 318px;
+}
+
+.rewardPointsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 322px;
+  height: 250px;
+  background: #ffffff;
+  border: 1px solid #dfe1e4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 78px;
+}
+.textheader1 {
+  font-style: normal;
+  font-weight: bold;
+  font-family: "AvenirNextMedium" !important;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+
+.textheader2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  font-family: "AvenirNextDemi" !important;
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+
+.textheader3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 32px;
+  /* identical to box height, or 89% */
+  font-family: "AvenirNextBold" !important;
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #1b1918;
+}
+.tab {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  font-family: "AvenirNextDemi" !important;
+  display: flex;
+  align-items: center;
+
+  /* grey dark */
+
+  color: #6f6f6f;
+}

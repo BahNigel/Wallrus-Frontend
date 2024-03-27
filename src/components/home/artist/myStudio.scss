@@ -1,0 +1,249 @@
+@import "../../../AppVariables.scss";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard {
+  background-color: #F6F6F6;
+  min-height: 100vh;
+}
+
+.content-dashboard {
+  background-color: #F6F6F6;
+}
+
+.loader {
+  color: #6f6f6f !important;
+}
+
+.dashboard-right-side {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.notification {
+  margin-right: 10px;
+  margin-top: 10px !important;
+}
+.profile-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.title-dashboard {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+
+  margin-top: 8px;
+
+  color: $primary-black;
+}
+
+.sub-title-dashboard {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  margin-top: 4px;
+
+  color: $secondary-black;
+}
+
+.edit-button {
+  background-color: $primary-black !important;
+  color: #fff !important;
+
+  margin-top: 10px !important;
+}
+
+.about-you-dashboard {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 18px;
+}
+
+.content-dashboard {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  letter-spacing: 0.5px;
+}
+
+.tab-dashboard {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  width: 0 !important;
+}
+
+.left-content-wrapper {
+  width: 90% !important;
+  background-color: #fff !important;
+  display: flex;
+  text-align: center;
+  padding: 20px !important;
+  flex-direction: column;
+  margin: 24px 40px !important;
+  border-radius: 12px;
+}
+
+.right-content-wrapper {
+  width: 95% !important;
+}
+
+.left-container-dashboard {
+  min-height: 100%;
+
+  max-width: 50% !important;
+  border-radius: 12px;
+  overflow-x: hidden;
+
+  .dashboard-footer {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    flex-grow: 1;
+    margin-top: 40px;
+
+    letter-spacing: 0.06em;
+
+    color: $secondary-black;
+  }
+}
+
+.right-container-dashboard {
+  margin-top: 16px !important;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+.left-image {
+  display: inline-flex !important;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.left-attributes {
+  display: inline-flex !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+.right-attributes {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.stats-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: -2px 10px !important;
+}
+
+.stats-dashboard {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-top: 40px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  margin-left: 10px;
+  color: $secondary-black;
+}
+
+.yellow-btn-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    margin-right: 10px !important;
+  }
+  p {
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
+.upload-design-yellow {
+  max-width: 200px !important;
+  height: 40px !important;
+  position: absolute !important;
+  top: 100px;
+  right: 5%;
+  background-color: #fadd4b !important;
+}
+
+.stats-points {
+  padding: 30px 0;
+  border-bottom: 1px solid #cdcbc9;
+
+  .stats-points-reward {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-bottom: 30px;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      img {
+        margin-right: 14px;
+      }
+    }
+
+    span {
+      color: #00b879;
+    }
+  }
+}
+
+.stats-level {
+  margin-bottom: 44px;
+
+  .stats-level-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25%;
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
+.stats-invite {
+  margin: 30px 0;
+}
+
+.studio-tab-wrap {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 44px;
+}
+
+.studio-upgrade-card {
+  width: 322px;
+  background: #ffffff;
+  border: 1px solid #dfe1e4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px;
+  padding-top: 20px;
+
+  .studio-upgrade-card-point {
+    color: #00b879;
+  }
+}

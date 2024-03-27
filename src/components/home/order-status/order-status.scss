@@ -1,0 +1,406 @@
+.order-status-container{
+    padding: 40px;
+}
+
+.order-status{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.order-status h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+}
+
+.order-informations{
+    padding: 20px 0;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-informations h4{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #6f6f6f;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.order-informations span{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+}
+
+.order-status-stepper{
+    margin: 40px 0px 20px 0px;
+    .MuiStepLabel-label{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 14px;
+    }
+}
+
+.ordered-item-container{
+    display: flex;
+}
+
+.ordered-item-image img{
+    height: 160px;
+    width: 160px;
+}
+
+.ordered-item-details{
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ordered-item-product-name{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 8px 0 3px 0;
+}
+
+.ordered-item-artist-name{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.ordered-item-specifications{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ordered-item-specifications h4{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #6f6f6f;
+    white-space: nowrap;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.ordered-item-specifications span{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #1b1918;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+
+.ordered-item-main-container{
+    border: 1px solid #dcdcdc;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+
+.ordered-item-delivery-date-container{
+    border-top: 1px solid #dcdcdc;
+    margin-top: 24px;
+    padding-top: 18px;
+}
+
+.green-tick{
+    margin-bottom: -3px;
+    height: 15px;
+    width: 15px;
+}
+
+
+.ordered-item-delivery-date-1{
+    margin-left: 6px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #6f6f6f;
+}
+
+.ordered-item-delivery-date-2{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1b1918;
+}
+
+.order-summary-container{
+    padding: 0px 20px;
+}
+
+.order-summary-container h4{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.order-mrp-coins-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.order-mrp-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order-coins-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    span:last-child{
+        color: #00b879;
+    }
+}
+
+.order-total-container{
+    padding: 20px 0px;
+    border-top: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0em;
+    }
+}
+
+.wallrus-coins-earned-main-container{
+    padding: 0px 20px;
+}
+
+.wallrus-coins-earned-container{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f6f7f7;
+    border-radius: 12px;
+
+    h4{
+        margin: 8px 0px;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    span{
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    span:last-child{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        color: #6f6f6f;
+        cursor: pointer;
+    }
+
+    .view-wallrus-coins-icon{
+        height: 10px;
+        width: 10px;
+        margin-bottom: -1px;
+    }
+}
+
+.explore-designs-container{
+    padding: 40px 0px;
+    border-top: 1px solid #dcdcdc;
+    margin-top: 20px;
+}
+
+.explore-designs-container h4{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0px 0px 40px 0px;
+}
+
+.exploreDesignsViewMoreContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploreDesignsViewMoreBtn{
+    width: 30%;
+    background-color: #000 !important;
+    cursor: pointer;
+    color: #fff !important;
+    border-radius: 8px !important;
+    margin-top: 30px !important;
+
+    &:hover{
+        background-color: #1b1918 !important;
+    }
+}
+
+.mobile-order-informations{
+    display: none;
+}
+
+.mobile-ordered-item-specifications{
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .ordered-item-specifications span{
+    margin-right: 14px;
+    }
+    .ordered-item-specifications h4{
+    margin-right: 14px;
+    }
+}
+
+
+@media (max-width:740px) {
+
+    .mobile-ordered-item-specifications{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .mobile-ordered-item-specifications h4{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #6f6f6f;
+    white-space: nowrap;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    }
+
+    .mobile-ordered-item-specifications span{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        color: #1b1918;
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+
+    .ordered-item-specifications{
+        display: none;
+    }
+
+    .order-status h3{
+    font-size: 18px;
+    }
+
+    .mobile-order-informations{
+        display: block;
+        border-top: 1px solid #dcdcdc;
+        padding-top: 20px;
+    }
+
+    .order-informations{
+        display: none;
+    }
+
+    
+    .mobile-order-informations h4{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        color: #6f6f6f;
+        margin: 0px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .order-status-container{
+    padding: 20px;
+    }
+
+    .ordered-item-image img{
+    height: 80px;
+    width: 80px;
+    }
+
+    .ordered-item-product-name{
+    font-size: 16px;
+    margin: 0px 0 3px 0;
+    }
+
+    .ordered-item-artist-name{
+    font-size: 12px;
+    }
+
+    
+    .exploreDesignsViewMoreBtn{
+        width: 30%;
+        margin-top: 30px !important;
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width:420px){
+    .ordered-item-product-name{
+    width: 150px;
+    }
+
+     .exploreDesignsViewMoreBtn{
+        font-size: 14px !important;
+    }
+}

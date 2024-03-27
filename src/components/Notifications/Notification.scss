@@ -1,0 +1,19 @@
+.notification-btn
+{
+    padding: 0px !important;
+    margin: 0px !important;
+    &:hover
+    {
+        background-color: #e5e5e5 !important;
+    }
+    max-width: 0px !important;
+
+    .notification
+    {
+        padding: 0px !important;
+        margin: 0px !important; 
+    }
+
+}
+
+

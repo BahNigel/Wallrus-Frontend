@@ -1,0 +1,36 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+}
+
+.nav-right-side {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.model {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.nav-right-content {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.notificationWrapper:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Nav-Header.css.map */

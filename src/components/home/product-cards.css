@@ -1,0 +1,191 @@
+.design-img-shop {
+  width: 340px;
+  height: 340px;
+  position: relative;
+}
+
+.tags-design {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 3 !important;
+  background-color: black !important;
+  color: white !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tags-design img {
+  margin-right: 5px;
+}
+
+.design-artist-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  max-width: 340px;
+}
+
+.design-artist-details .design-artist-name-profilepic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design-artist-details .design-artist-photo-container .design-artist-photo {
+  width: 32px;
+  height: 32px;
+}
+
+.design-artist-details .design-artist-name-container .design-artist-name {
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.design-artist-details .design-utilities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.design-artist-details .design-utilities .heartImg {
+  fill: none;
+}
+
+.design-artist-details .design-utilities .heartImg:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.design-artist-details .design-utilities .heartImg-active {
+  fill: #ff0101;
+}
+
+.design-artist-details .design-utilities .heartImg-active:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+@media screen and (min-width: 310px) and (max-width: 599px) {
+  .design-img-container {
+    height: 100%;
+    width: 100%;
+  }
+  .design-img-shop {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+  }
+  .design-artist-details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    max-width: 170px;
+  }
+  .design-artist-details .design-artist-name-profilepic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .design-artist-details .design-artist-photo-container .design-artist-photo {
+    width: 22px;
+    height: 22px;
+  }
+  .design-artist-details .design-artist-name-container {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    width: 70px;
+  }
+  .design-artist-details .design-artist-name-container .design-artist-name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .design-artist-details .design-utilities {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .design-artist-details .design-utilities .heartImg {
+    fill: none;
+  }
+  .design-artist-details .design-utilities .heartImg:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+  .design-artist-details .design-utilities .heartImg-active {
+    fill: #ff0101;
+  }
+  .design-artist-details .design-utilities .heartImg-active:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    transition: transform 0.3s, -webkit-transform 0.3s;
+  }
+}
+/*# sourceMappingURL=product-cards.css.map */

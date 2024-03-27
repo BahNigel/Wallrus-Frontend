@@ -1,0 +1,69 @@
+.sign-up-card {
+  padding: 20px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  text-align: center;
+}
+.title {
+  border: 3px solid #fff;
+  height: 90%;
+  border-radius: inherit;
+  text-align: left;
+  padding: 0 20px;
+  position: relative;
+}
+.title > * {
+  margin: 10px 0;
+}
+.transform-up-50 {
+  transform: translateY(-50%);
+}
+.capital {
+  text-transform: uppercase;
+}
+.x-thin {
+  font-weight: 300;
+}
+.size-48 {
+  font-size: 48px;
+}
+.size-24 {
+  font-size: 24px;
+}
+.btn-white {
+  background-color: #fff !important;
+  color: #000 !important;
+  width: auto;
+}
+.text-white {
+  color: #fff !important;
+}
+.learn-more {
+  display: block;
+}
+.left-20 {
+  position: absolute;
+  left: 20px;
+}
+.bottom-30 {
+  position: absolute;
+  bottom: 30px;
+}
+.margin-10 {
+  margin: 10px 0;
+}
+
+@media (max-width: 500px) {
+  .size-24 {
+    font-size: 20px;
+  }
+  .size-48 {
+    font-size: 25px;
+  }
+  .title {
+    height: 85%;
+  }
+}

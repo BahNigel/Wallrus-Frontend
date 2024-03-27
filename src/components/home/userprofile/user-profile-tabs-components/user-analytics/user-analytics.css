@@ -1,0 +1,72 @@
+.user-analytics {
+  margin: auto 3% !important;
+  border-bottom: 1px solid #E9E9E9;
+  padding-bottom: 40px !important;
+}
+
+.user-overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.user-overview-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-overview-header img {
+  margin-right: 10px;
+}
+
+.user-overview-header p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1B1918;
+}
+
+.user-overview-trend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-overview-trend img {
+  margin-left: 10px;
+}
+
+.user-overview-header {
+  font-weight: 600 !important;
+  font-size: 16px;
+  letter-spacing: 0.06rem;
+  color: #6F6F6F;
+}
+
+.percent-trend {
+  font-weight: normal !important;
+  font-size: 14px;
+  color: #6F6F6F;
+}
+
+.analytics-graph {
+  width: 100% !important;
+  height: 516px !important;
+  border-radius: 12px !important;
+  background-color: #fff;
+  margin-top: 30px !important;
+}
+
+.analytics-graph h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  margin-bottom: 40px !important;
+  color: #6F6F6F;
+}
+/*# sourceMappingURL=user-analytics.css.map */

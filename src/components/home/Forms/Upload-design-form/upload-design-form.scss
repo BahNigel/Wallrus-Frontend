@@ -1,0 +1,23 @@
+.back-group{
+  display: flex;
+  align-items: flex-end;
+}
+.back-arrow{
+  padding: 1rem 0 0.3rem 1rem;
+  display: none;
+}
+.upload-design {
+  input + fieldset {
+    border-width: 1px;
+    border-radius: 12px 12px 0 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .back-arrow {
+    display: block;
+  }
+  .upload-form {
+    padding: 0 1rem;
+  }
+}

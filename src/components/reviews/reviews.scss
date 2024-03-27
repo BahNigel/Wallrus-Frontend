@@ -1,0 +1,68 @@
+.reviews {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(232, 247, 238, 1),
+    rgba(232, 247, 238, 0)
+  );
+  position: relative;
+  padding: 70px 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user > * {
+  margin: 0 20px;
+}
+.center-y {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lh-2 {
+  line-height: 1.7;
+}
+.left-150 {
+  position: absolute;
+  left: 150px;
+}
+.right-150 {
+  position: absolute;
+  right: 150px;
+}
+.margin-y-40 {
+  margin: 40px 0;
+}
+
+.unactive {
+  width: 35px;
+  height: 35px;
+  opacity: .5;
+}
+
+.transform-left-50 {
+  transform: translateX(25%);
+}
+.transform-right-50 {
+  transform: translateX(-25%);
+}
+
+@media (max-width: 500px) {
+  .reviews {
+    padding: 10px;
+  }
+
+  .left-150 {
+    left: -35px;
+    width: 30px;
+  }
+  .right-150 {
+    right: -35px;
+    width: 30px;
+  }
+}

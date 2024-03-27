@@ -1,0 +1,117 @@
+.user-settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.user-settings:hover {
+  background-color: #dcdcdc;
+  border-radius: 10px;
+}
+
+.user-setting-popper {
+  z-index: 5;
+  margin-top: 70px;
+  margin-left: -10px;
+}
+
+.MuiPopover-paper {
+  border-radius: 12px !important;
+}
+
+.user-settings-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-settings-list span {
+  color: #6f6f6f;
+}
+
+.user-settings-list li {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.user-settings-list li:hover {
+  background-color: #dcdcdc;
+  border-radius: 8px;
+}
+
+.view-page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 !important;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.view-page-container p {
+  margin: 0 5px 0 0 !important;
+  padding: 0;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.view-page-container p:hover {
+  color: #000;
+}
+
+.user-name {
+  margin: 8px 0 5px 0;
+}
+
+.arrow-right {
+  margin-top: 2px;
+}
+
+.settings-icon {
+  margin-right: 8px;
+}
+
+.divider {
+  border: 1px solid #f3f3f3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.user-settings-list:last-child {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+@media (max-width: 1100px) {
+  .arrow-down {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .user-setting-popper {
+    z-index: 5;
+    margin-top: 60px;
+    margin-left: -10px;
+  }
+}
+/*# sourceMappingURL=user-settings.css.map */

@@ -1,0 +1,43 @@
+@import "../../AppVariables.scss";
+
+.d-none {
+  opacity: 0;
+}
+
+.text-muted {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px !important;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #6f6f6f;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.memberStatusMobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .memberStatusMobile {
+    display: block;
+    font-size: 14px;
+    margin: 10px auto;
+
+    span {
+      color: $secondary-black;
+      display: inline-block;
+    }
+
+    .link {
+      color: $primary-black;
+      text-decoration: none;
+      display: inline-block;
+    }
+  }
+}

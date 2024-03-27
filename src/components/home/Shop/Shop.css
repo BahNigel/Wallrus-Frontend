@@ -1,0 +1,106 @@
+.shop-container {
+  background: #fff;
+  min-height: 100vh;
+}
+
+.shop-container .shop-contents {
+  margin-top: 10px;
+}
+
+.arrows {
+  margin-right: 20px !important;
+  cursor: pointer;
+}
+
+.filter-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.designRoot {
+  border-radius: 12px !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: black !important;
+  position: relative;
+}
+
+.designRoot:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.designRoot .MuiCardMedia-root {
+  max-height: 340px;
+}
+
+.filter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  right: 3.8%;
+}
+
+.filter-holder {
+  width: 231px;
+  cursor: pointer !important;
+}
+
+.shop-filter-arrow-closed {
+  top: 10px;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+.shop-filter-arrow-open {
+  top: 10px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.shop-filter-arrow-open, .shop-filter-arrow-closed {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+}
+
+.tab {
+  width: 100px !important;
+  font-size: 15px !important;
+  white-space: nowrap !important;
+  margin-right: 20px !important;
+  padding: 24px 0px !important;
+}
+
+.tab-dotmenu {
+  margin-left: 10px;
+}
+
+.tab-dotmenu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Shop.css.map */

@@ -1,0 +1,130 @@
+.user-profile-page-container {
+  min-height: 100vh;
+  background: #fff;
+  position: relative;
+
+  .tab {
+    width: 100px !important;
+    font-size: 16px !important;
+  }
+
+  .user-profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 40px;
+
+    .user-profile-img-container {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+
+      .user-profile-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+      }
+    }
+
+    .user-profile-details-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 24px;
+
+      .user-profile-name {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        height: 32px;
+        margin: 0;
+        color: #1b1918;
+        width: max-content;
+      }
+      .user-profile-experience {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        height: 24px;
+        margin: 8px 0 0;
+        color: #6f6f6f;
+        width: max-content;
+      }
+    }
+
+    .user-profile-editBtn-container {
+      .user-profile-editBtn {
+        max-width: 18vw;
+        min-width: 14vw;
+        background-color: #1b1918;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .fav-design-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 1024px) {
+  .user-profile-page-container {
+    .fav-design-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .user-profile-page-container {
+    .fav-design-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 30px;
+      padding: 20px;
+    }
+
+    .user-profile-container {
+      .user-profile-img-container {
+        width: 64px;
+        height: 64px;
+
+        .user-profile-img {
+          width: 64px;
+          height: 64px;
+        }
+      }
+
+      .user-profile-details-container {
+        .user-profile-name {
+          font-size: 16px;
+          line-height: normal;
+          height: auto;
+        }
+        .user-profile-experience {
+          font-size: 12px;
+          line-height: normal;
+          height: auto;
+        }
+      }
+
+      .user-profile-editBtn-container {
+        .user-profile-editBtn {
+          border-radius: 50% !important;
+          width: 40px !important;
+          min-width: 40px !important;
+          height: 40px !important;
+
+          span {
+            padding: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

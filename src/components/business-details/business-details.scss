@@ -1,0 +1,65 @@
+@import '../../AppVariables.scss';
+
+.business-details-title{
+  font-size: 28px;
+  color: $primary-black;
+  margin-bottom: 0;
+  }
+  
+  .business-details-sub-title{
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 5px;
+  color: $secondary-black;
+  margin-bottom: 50px;
+  }
+
+
+  .text-muted-business-details{
+    font-size: 12px;
+    color: #6E6E6E;
+    margin-left: 5px ;
+  }
+
+  .business-details-input{
+    margin-bottom: 35px !important;
+  }
+
+  .text-muted-tags{
+    margin-top: -30px !important;
+    margin-bottom: 30px !important;
+    display: flex;
+    align-items: center;
+  }
+
+
+  @media (max-width:960px) {
+
+    .business-details-title{
+      font-size: 18px;
+      color: $primary-black;
+      margin-bottom: 0;
+      }
+      
+      .business-details-sub-title{
+      font-size: 14px;
+      line-height: 24px;
+      margin-top: 5px;
+      color: $secondary-black;
+      margin-bottom: 50px;
+      }
+
+      .i-img{
+        margin-left: 60px;
+        height: 12px !important;
+        width: 12px !important;
+      }
+      .text-muted-tags{
+        margin-top: -30px !important;
+        margin-bottom: 30px !important;
+        display: flex;
+        align-items: center;
+        margin-left: 10px !important;
+      }
+
+  }

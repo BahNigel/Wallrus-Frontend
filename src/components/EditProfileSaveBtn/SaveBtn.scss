@@ -1,0 +1,17 @@
+@import '../../AppVariables.scss';
+
+// .save-button:disabled
+// {
+//     background-color: $secondary-black;
+//     color: #fff;
+// }
+
+.save-button-disabled
+{
+    background-color: $secondary-black;
+    color: #fff;
+    font-size: 16px !important;
+    width: 178px !important;
+    margin-left: auto !important;
+    margin-bottom: 10px !important;
+}

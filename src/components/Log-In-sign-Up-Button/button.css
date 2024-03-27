@@ -1,0 +1,11 @@
+.LogIn-Btn, .SignUp-Btn {
+  background-color: #1B1918 !important;
+  color: #ffffff !important;
+  padding: 10px 0px !important;
+  margin-top: 40px !important;
+}
+
+.button-loader {
+  color: #fff !important;
+}
+/*# sourceMappingURL=button.css.map */

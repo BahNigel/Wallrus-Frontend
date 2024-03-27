@@ -1,0 +1,131 @@
+.banner-container {
+  width: auto;
+  height: 72px;
+  position: relative;
+  background: #e8f7ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "AvenirNextRegular" !important;
+
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "AvenirNextRegular";
+    .banner-image-container {
+      width: 32px;
+      height: 32px;
+      margin: 0px 12px;
+      font-family: "AvenirNextRegular";
+    }
+
+    .banner-text {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      padding: 0px;
+      width: 300px;
+      color: #1b1918;
+      font-family: "AvenirNextRegular";
+    }
+
+    .banner-button {
+      font-weight: 600;
+      font-style: normal;
+      font-size: 15px !important;
+      margin-left: 20px;
+      padding: 5px 10px !important;
+      border-color: #000 !important;
+      font-family: "AvenirNextRegular";
+    }
+    .banner-button-mobile {
+      display: none;
+      font-family: "AvenirNextRegular";
+    }
+    .banner-button-arrow-container {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      top: -7px;
+      left: 10px;
+      font-family: "AvenirNextRegular";
+    }
+    .shop-arrow {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .banner-container {
+    .banner-button {
+      display: none !important;
+    }
+
+    .MuiButton-outlined {
+      border: none !important;
+    }
+    .banner-container {
+      display: flex;
+      align-items: center;
+      background-color: #fff0d4;
+    }
+    .banner-content {
+      width: 100%;
+      display: flex !important;
+      align-items: center !important;
+      .banner-image-container {
+        position: relative;
+        margin-right: 25px !important;
+        .banner-image {
+          width: 45px !important;
+          height: 45px !important;
+          position: absolute;
+          left: 0%;
+          top: -20%;
+        }
+      }
+      .banner-text {
+        width: 100% !important;
+        font-size: 12px !important;
+      }
+      .upload-group {
+        display: flex;
+        align-items: baseline;
+      }
+      .upload-now {
+        display: none;
+      }
+      .banner-arrow {
+        height: 1.5rem;
+        margin-top: 1rem;
+      }
+      .banner-button-mobile {
+        display: inline-flex !important;
+        position: relative;
+        top: -10px;
+        padding: 5px 10px;
+        .banner-button-arrow-container {
+          position: relative;
+          top: -10px !important;
+          left: 20px;
+          .banner-button-arrow {
+            position: absolute;
+            left: 25%;
+            top: 50%;
+            width: 20px !important;
+            height: 20px !important;
+          }
+        }
+
+        .banner-button-text {
+          display: none !important;
+        }
+      }
+      .shop-arrow {
+        height: 40px;
+      }
+    }
+  }
+}

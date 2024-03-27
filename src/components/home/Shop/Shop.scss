@@ -1,0 +1,109 @@
+.shop-container {
+  background: #fff;
+  min-height: 100vh;
+
+  .shop-contents {
+    margin-top: 10px;
+  }
+}
+
+.arrows {
+  margin-right: 20px !important;
+  cursor: pointer;
+}
+
+.filter-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.designRoot {
+  border-radius: 12px !important;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 1) !important;
+  position: relative;
+  max-width: 322px !important;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.3s;
+  }
+  .MuiCardMedia-root {
+    max-height: 340px;
+  }
+}
+
+.filter-container {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 3.8%;
+}
+.filter-holder {
+  width: 231px;
+  cursor: pointer !important;
+}
+.shop-filter-arrow-closed {
+  top: 10px;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+.shop-filter-arrow-open {
+  top: 10px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.shop-filter-arrow-open,
+.shop-filter-arrow-closed {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+}
+
+// .filter-div-parent
+// {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     height: 44px;
+//     width: 231px;
+//     border: 1px solid #DCDCDC;
+//     position: relative;
+
+//     .selected-filter
+//     {
+//         position: absolute;
+//         top: 27%;
+//         left: 14px;
+//         font-weight: 600;
+//         font-size: 14px;
+//     }
+//     .filter-arrow
+//     {
+//         width: 11px;
+//         position: relative;
+//         right: 15px;
+
+//     }
+// }
+
+.tab-shop {
+  width: 100px !important;
+  font-size: 16px !important;
+  white-space: nowrap !important;
+  margin-right: 20px !important;
+  padding: 0 !important;
+}
+
+.tab-dotmenu {
+  margin-left: 10px;
+}
+
+.tab-dotmenu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

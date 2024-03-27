@@ -1,0 +1,152 @@
+@import "../../AppVariables.scss";
+
+.faqs-container {
+  background-color: #fff;
+  border-radius: 12px 12px 0px 0px;
+  padding-top: 0px;
+
+  .faqs-div {
+    padding: 32px 62px 32px 32px;
+  }
+
+  .faqs-div ul {
+    padding-left: 16px;
+  }
+
+  .faqs-div p {
+    margin-bottom: 30px;
+  }
+
+  .faqs-title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .faqs-subtitle {
+    color: $secondary-black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .horizontal-line {
+    width: 96%;
+    background: $line-gray;
+    height: 1px;
+    border: 0px;
+    box-shadow: none;
+  }
+
+  .artists-agreements-container {
+    padding: 10px 52px 20px 32px;
+  }
+
+  .uploading-managing-designs-container {
+    padding: 10px 52px 20px 32px;
+  }
+
+  .understanding-media-art-container {
+    padding: 10px 52px 20px 32px;
+  }
+
+  .accordian-details {
+    padding: 0px 32px 20px 40px;
+  }
+
+  .contact-us-container {
+    background-image: url("../../images/contactus-background.svg");
+    height: 300px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .contact-us-div {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    padding: 32px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-us-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0;
+  }
+
+  .contact-us-subtitle {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 32px;
+  }
+
+  .contact-us-button {
+    background-color: $primary-black;
+    color: #fff;
+    width: 50%;
+    &:hover {
+      background-color: $primary-black;
+    }
+  }
+}
+.expand-more-icon {
+  border: 1px solid $profile-border;
+  border-radius: 50%;
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .faqs-container {
+    .faqs-title {
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .accordian-details {
+      font-weight: normal;
+      padding: 0px 0 20px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .contact-us-container {
+    background-image: url("../../images/contactus-background.svg");
+    height: 30px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+
+  .contact-us-div {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    padding: 10px 20px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(50px);
+  }
+}

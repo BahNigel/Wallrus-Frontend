@@ -1,0 +1,99 @@
+.main-container-phone-number-verification {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.loginHeaderPhoneNumberVerification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  padding-right: 40px;
+}
+
+.loginHeaderPhoneNumberVerification img {
+  height: 250px;
+  width: 250px;
+  max-height: 250px;
+  max-width: 250px;
+  margin-top: 40px;
+}
+
+.verifyPhoneNumberBtn {
+  background-color: #1B1918 !important;
+  color: #ffffff !important;
+  padding: 10px 0px !important;
+}
+
+.centerPhoneNumberContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  margin-top: 50px;
+}
+
+.centerPhoneNumberContent h1 {
+  color: #1B1918;
+  font-size: 18px;
+}
+
+.centerPhoneNumberContent p {
+  color: #6F6F6F;
+  font-size: 14px;
+  padding: 0 -20px;
+}
+
+.phone-number-verification-input {
+  margin-top: 64px !important;
+  margin-bottom: 48px !important;
+}
+
+.span-dark {
+  color: #1B1918;
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .main-container-phone-number-verification {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 0 20px !important;
+  }
+}
+/*# sourceMappingURL=phone-number.css.map */

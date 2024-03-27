@@ -1,0 +1,22 @@
+.sell-design-banner {
+  background-color: #F2F4FF;
+}
+.banner-1 {
+  padding: 100px 300px 100px 100px;
+}
+.design-cta {
+  text-align: center;
+  padding: 20px;
+}
+.text-grey {
+  color: #999;
+}
+
+@media (max-width: 1025px) {
+  .banner-1 {
+    padding: 30px;
+  }
+  .only-desktop {
+    display: none;
+  }
+}

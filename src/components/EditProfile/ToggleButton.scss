@@ -1,0 +1,15 @@
+.radio-container
+{
+    padding: 24px 0px 30px 10px;
+}
+.radio-btn
+{
+    border: 1px solid #DCDCDC;
+    padding: 0px 35px 0px 24px;
+    border-radius: 20px;
+    // font-size: 14px !important;
+    &:focus-within
+    {
+        border: 1px solid #000;
+    }
+}

@@ -1,0 +1,47 @@
+.App {
+  a {
+    text-decoration: none;
+  }
+
+  margin: 0px;
+  height: 100vh;
+  overflow-y: scroll;
+  // width: 100vw !important;
+}
+
+.btn-filled {
+  font-family: "AvenirNextRegular" !important;
+}
+.lh-2 {
+  line-height: 1.8 !important;
+}
+
+/* UTILS */
+.flex {
+  display: flex;
+}
+
+.MuiCheckbox-root .MuiSvgIcon-root {
+  fill: inherit;
+}
+
+@media screen and (max-width: 1025px) {
+  .App {
+    a {
+      text-decoration: none;
+    }
+    background-color: #ffffff;
+    margin: 0px;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .App {
+    overflow-x: hidden;
+  }
+  .btn-filled {
+    font-size: 16px !important;
+    width: 100% !important;
+  }
+}

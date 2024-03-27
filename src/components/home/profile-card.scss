@@ -1,0 +1,117 @@
+.profile-card-root{
+  border: 1px solid #DCDCDC !important;
+  border-radius: 12px !important;
+  padding: 20px;
+  margin: 0px 0px 20px 0px !important;
+}
+
+.profile-card-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3{
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1B1918;
+    text-align: center;
+  }
+
+  p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6F6F6F;
+  }
+}
+
+.profile-follow{
+  background-color: black !important;
+  color: #ffff !important;
+  width: 150px !important;
+  height: 40px !important;
+  margin-top: 15px !important;
+  border-radius: 8px;
+  
+
+  img{
+    height: 20px !important;
+    width: 20px !important;
+    margin-right: 5px !important;
+  }
+
+  &:hover{
+    background-color: #1B1918 !important;
+  }
+}
+
+.view-design-btn{
+  background-color: #fff !important;
+  color: #000 !important;
+  width: 150px !important;
+  height: 40px !important;
+  margin-top: 15px !important;
+  border: 1px solid #000 !important;
+  border-radius: 8px !important;
+
+  &:hover{
+    background-color: #f6f7f7 !important;
+  }
+}
+
+@media screen and (min-width: 360px){
+
+  h3{
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1B1918;
+    text-align: center;
+  }
+
+
+  .profile-follow{
+    background-color: black !important;
+    color: #ffff !important;
+    width: 100px !important;
+    height: 40px !important;
+    margin-top: 10px !important;
+    border-radius: 8px !important;
+    font-size: 16px !important;
+  
+    img{
+      height: 18px !important;
+      width: 18px !important;
+      margin-right: 3px !important;
+    }
+  
+    &:hover{
+      background-color: #1B1918 !important;
+    }
+  }
+
+  .img-container-profile{
+    img{
+      width: 90px !important;
+      height: 90px !important;
+    }
+  }
+
+  .view-design-btn{
+    background-color: #fff !important;
+    color: #000 !important;
+    width: 100px !important;
+    height: 40px !important;
+    margin-top: 10px !important;
+    border: 1px solid #000 !important;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+
+  
+    &:hover{
+      background-color: #f6f7f7 !important;
+    }
+  }
+
+}

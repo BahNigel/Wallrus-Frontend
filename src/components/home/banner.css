@@ -1,0 +1,120 @@
+.banner-container {
+  width: auto;
+  height: 72px;
+  position: relative;
+  background: #E8F7EE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-container .banner-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-container .banner-content .banner-image-container {
+  width: 32px;
+  height: 32px;
+  margin: 0px 12px;
+}
+
+.banner-container .banner-content .banner-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 0px;
+  width: 300px;
+  color: #1B1918;
+}
+
+.banner-container .banner-content .banner-button {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px !important;
+  margin-left: 20px;
+  padding: 5px 10px !important;
+  border-color: #000 !important;
+}
+
+.banner-container .banner-content .banner-button-mobile {
+  display: none;
+}
+
+.banner-container .banner-content .banner-button-arrow-container {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  top: -7px;
+  left: 10px;
+}
+
+@media screen and (min-width: 310px) and (max-width: 599px) {
+  .banner-button {
+    display: none !important;
+  }
+  .MuiButton-outlined {
+    border: none !important;
+  }
+  .banner-content {
+    width: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .banner-content .banner-image-container {
+    position: relative;
+    margin-right: 25px !important;
+  }
+  .banner-content .banner-image-container .banner-image {
+    width: 45px !important;
+    height: 45px !important;
+    position: absolute;
+    left: 0%;
+    top: -20%;
+  }
+  .banner-content .banner-text {
+    width: 50% !important;
+    font-size: 12px !important;
+  }
+  .banner-content .banner-button-mobile {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    position: relative;
+    top: -10px;
+    padding: 5px 10px;
+  }
+  .banner-content .banner-button-mobile .banner-button-arrow-container {
+    position: relative;
+    top: -10px !important;
+    left: 20px;
+  }
+  .banner-content .banner-button-mobile .banner-button-arrow-container .banner-button-arrow {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .banner-content .banner-button-mobile .banner-button-text {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,84 @@
+.application-loader {
+  color: #000 !important;
+  margin-top: 150px;
+}
+
+.application-loader-container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.pagination a {
+  padding: 10px;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.pagination__link {
+  font-weight: bold;
+}
+
+.pagination__link--active a {
+  color: #fff;
+  background: #000;
+  padding: 8px 10px;
+}
+
+.pagination__link--disabled a {
+  color: #c6c5ca;
+  border: 1px solid #c6c5ca;
+}
+
+.pagination__link--disabled svg path {
+  stroke: #c6c5ca !important;
+}
+
+.pagination-container {
+  margin: 40px 90px 100px 50px;
+}
+
+.pagination-previous, .pagination-next {
+  border: 1px solid;
+}
+
+.previous {
+  margin-bottom: -1.5px !important;
+}
+
+.next {
+  margin-bottom: -2px;
+}
+
+.pagination .previous {
+  margin-right: auto;
+}
+
+.pagination .next {
+  margin-left: auto;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .pagination-container {
+    margin: 40px 30px 50px 0px;
+  }
+}
+/*# sourceMappingURL=applications.css.map */

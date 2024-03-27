@@ -1,0 +1,149 @@
+.wallrus-coins {
+  margin: auto 3%;
+}
+
+.wallrus-coins-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wallrus-coins-header h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #00B879;
+  margin-bottom: -10px !important;
+}
+
+.wallrus-coins-header h1 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #1B1918;
+  margin-bottom: -10px !important;
+}
+
+.wallrus-coins-header p {
+  font-weight: normal;
+  font-size: 14px;
+  color: #1B1918;
+}
+
+.heading {
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 30px;
+}
+
+.membership-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1B1918;
+}
+
+.coins-history {
+  width: 100%;
+}
+
+.coins-history-header {
+  border-bottom: 1px solid #DCDCDC;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  color: #1B1918;
+  padding: 20px 0px 30px 0px;
+}
+
+.coins-history-header .description {
+  text-align: left !important;
+}
+
+.toggle-view-more {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #1B1918;
+  border-bottom: 1px solid #DCDCDC;
+  cursor: pointer;
+}
+
+.coins-history-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: -15px !important;
+}
+
+.coins-history-list-item h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1B1918;
+  margin-bottom: -10px !important;
+}
+
+.coins-history-list-item p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #6F6F6F;
+}
+
+.wallrus-coins-list-items {
+  text-align: center;
+  padding: 30px 0px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.wallrus-coins-list-item-name {
+  text-align: left !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wallrus-coins-list-item-name p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  margin: 0;
+  color: #6F6F6F;
+}
+
+.expand-more-icon-membership {
+  border: 1px solid #CDCBC9;
+  border-radius: 50%;
+  padding: 0 !important;
+}
+/*# sourceMappingURL=user-wallrus-coins.css.map */

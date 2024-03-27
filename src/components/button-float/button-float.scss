@@ -1,0 +1,25 @@
+.btn-group {
+  border-radius: 10px !important;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+  z-index: 1000;
+  overflow: hidden;
+  background-color: #fff;
+  height: 50px !important;
+  padding: 10px 0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1) !important;
+  box-sizing: border-box;
+
+  &--item {
+    border-radius: 0 !important;
+    box-shadow: none;
+    background-color: #fff !important;
+    padding: 15px 30px;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}

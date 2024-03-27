@@ -1,0 +1,22 @@
+.banner {
+  background-color: #F6F7F7;
+  padding: 100px;
+}
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+.block-50 {
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .banner {
+    padding: 40px;
+  }
+  .block-50 {
+    width: 100%;
+  }
+  .margin-bottom-50 {
+    margin-bottom: 30px;
+  }
+}

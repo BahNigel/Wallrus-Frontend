@@ -1,0 +1,14 @@
+.radio-container {
+  padding: 24px 0px 30px 10px;
+}
+
+.radio-btn {
+  border: 1px solid #DCDCDC;
+  padding: 0px 35px 0px 24px;
+  border-radius: 20px;
+}
+
+.radio-btn:focus-within {
+  border: 1px solid #000;
+}
+/*# sourceMappingURL=ToggleButton.css.map */

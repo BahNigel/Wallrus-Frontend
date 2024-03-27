@@ -1,0 +1,170 @@
+.faqs-container {
+  background-color: #fff;
+  border-radius: 12px 12px 0px 0px;
+  padding-top: 0px;
+}
+
+.faqs-container .faqs-div {
+  padding: 32px 62px 32px 32px;
+}
+
+.faqs-container .faqs-div ul {
+  padding-left: 16px;
+}
+
+.faqs-container .faqs-div p {
+  margin-bottom: 30px;
+}
+
+.faqs-container .faqs-title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.faqs-container .faqs-subtitle {
+  color: #6F6F6F;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.faqs-container .horizontal-line {
+  width: 96%;
+  background: #DCDCDC;
+  height: 1px;
+  border: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faqs-container .artists-agreements-container {
+  padding: 10px 52px 20px 32px;
+}
+
+.faqs-container .uploading-managing-designs-container {
+  padding: 10px 52px 20px 32px;
+}
+
+.faqs-container .understanding-media-art-container {
+  padding: 10px 52px 20px 32px;
+}
+
+.faqs-container .accordian-details {
+  padding: 0px 32px 20px 40px;
+}
+
+.faqs-container .contact-us-container {
+  background-image: url("../../images/contactus-background.svg");
+  height: 300px;
+  max-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faqs-container .contact-us-div {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 32px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faqs-container .contact-us-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 0;
+}
+
+.faqs-container .contact-us-subtitle {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 32px;
+}
+
+.faqs-container .contact-us-button {
+  background-color: #1B1918;
+  color: #fff;
+  width: 50%;
+}
+
+.faqs-container .contact-us-button:hover {
+  background-color: #1B1918;
+}
+
+.faqs-container .expand-more-icon {
+  border: 1px solid #CDCBC9;
+  border-radius: 50%;
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 360px) {
+  .contact-us-container {
+    background-image: url("../../images/contactus-background.svg");
+    height: 30px;
+    max-height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+  .contact-us-div {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    padding: 10px 20px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+  }
+}
+/*# sourceMappingURL=design-faq.css.map */

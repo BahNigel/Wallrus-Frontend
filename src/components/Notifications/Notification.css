@@ -1,0 +1,15 @@
+.notification-btn {
+  padding: 0px !important;
+  margin: 0px !important;
+  max-width: 0px !important;
+}
+
+.notification-btn:hover {
+  background-color: #e5e5e5 !important;
+}
+
+.notification-btn .notification {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+/*# sourceMappingURL=Notification.css.map */

@@ -1,0 +1,27 @@
+.App {
+  margin: 0px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.App a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "AvenirNextRegular";
+  src: local("AvenirNextRegular"),
+    url("../src/assets/fonts/AvenirNextLTPro-Regular.otf") format("truetype");
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1025px) {
+  .App {
+    background-color: #ffffff;
+    margin: 0px;
+    height: 100vh;
+  }
+  .App a {
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=App.css.map */

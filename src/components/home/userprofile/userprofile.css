@@ -1,0 +1,76 @@
+.user-profile-page-container {
+  min-height: 100vh;
+  background: #fff;
+  position: relative;
+}
+
+.user-profile-page-container .tab {
+  width: 100px !important;
+  font-size: 16px !important;
+}
+
+.user-profile-page-container .user-profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.user-profile-page-container .user-profile-container .user-profile-img-container {
+  position: relative;
+  left: 55px;
+  top: 0px;
+}
+
+.user-profile-page-container .user-profile-container .user-profile-img-container .user-profile-img {
+  width: 120px;
+  height: 120px;
+}
+
+.user-profile-page-container .user-profile-container .user-profile-details-container {
+  position: absolute;
+  top: 25px;
+  left: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user-profile-page-container .user-profile-container .user-profile-details-container .user-profile-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.user-profile-page-container .user-profile-container .user-profile-details-container .user-profile-experience {
+  position: absolute;
+  top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6F6F6F;
+}
+
+.user-profile-page-container .user-profile-container .user-profile-editBtn-container {
+  position: relative;
+  right: 40px;
+}
+
+.user-profile-page-container .user-profile-container .user-profile-editBtn-container .user-profile-editBtn {
+  max-width: 18vw;
+  min-width: 14vw;
+  background-color: #1B1918;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=userprofile.css.map */

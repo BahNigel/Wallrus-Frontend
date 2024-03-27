@@ -1,0 +1,148 @@
+.invite-friends-main-container {
+  padding: 10px 40px 40px 40px;
+}
+
+.invite-friends-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.invite-friends-bgimage {
+  height: 300px;
+  width: 300px;
+}
+
+.invite-friends-contents {
+  text-align: center;
+}
+
+.invite-friends-title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+
+.invite-friends-subtitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.sharing-link {
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.sharing-link-message {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left !important;
+  margin-top: 10px;
+}
+
+.sharing-method-division-container {
+  margin-top: 40px;
+}
+
+.sharing-method-division {
+  line-height: 0.5;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 12px;
+}
+
+.sharing-method-division span {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+}
+
+.sharing-method-division span:before,
+.sharing-method-division span:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  border-bottom: 1px solid #dcdcdc;
+  top: 0;
+  width: 250px;
+}
+
+.sharing-method-division span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+.sharing-method-division span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.sharing-other-methods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.sharing-other-methods img {
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+}
+
+.sharing-other-methods a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.sharing-other-methods span {
+  color: black;
+  margin-top: 10px;
+}
+
+.sharing-whatsapp,
+.sharing-telegram,
+.sharing-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/*# sourceMappingURL=invite-friends.css.map */

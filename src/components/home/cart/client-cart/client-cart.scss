@@ -1,0 +1,12 @@
+.client-cart-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .client-cart-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,31 @@
+.manage-account {
+  min-height: 55vh;
+}
+
+.manage-account h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1B1918;
+}
+
+.manage-account p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #1B1918;
+}
+
+.delete-account {
+  width: 200px;
+  color: #ffff !important;
+  background-color: black !important;
+  display: block !important;
+  margin-top: 30px !important;
+}
+
+.delete-account:hover {
+  background-color: #fff !important;
+  color: black !important;
+}
+/*# sourceMappingURL=ManageAccount.css.map */

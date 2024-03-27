@@ -1,0 +1,63 @@
+.user-analytics {
+  margin: auto 3% !important;
+  border-bottom: 1px solid #e9e9e9;
+  padding-bottom: 40px !important;
+}
+.user-overview {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .overview-div {
+    min-width: 160px;
+  }
+}
+
+.user-overview-header {
+  display: flex;
+  img {
+    margin-right: 10px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #1b1918;
+  }
+}
+.user-overview-trend {
+  display: flex;
+  img {
+    margin-left: 10px;
+  }
+}
+
+.user-overview-header {
+  font-weight: 600 !important;
+  font-size: 16px;
+  letter-spacing: 0.06rem;
+  color: #6f6f6f;
+}
+
+.percent-trend {
+  font-weight: normal !important;
+  font-size: 14px;
+  color: #6f6f6f;
+}
+
+.analytics-graph {
+  width: 100% !important;
+  height: 516px !important;
+  border-radius: 12px !important;
+  background-color: #fff;
+  margin-top: 30px !important;
+
+  h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    margin-bottom: 40px !important;
+    color: #6f6f6f;
+  }
+}

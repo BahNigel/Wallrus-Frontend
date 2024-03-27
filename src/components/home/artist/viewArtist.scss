@@ -1,0 +1,96 @@
+.artist-details-snippet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 322px;
+  height: 86vh;
+  position: relative;
+  padding: 30px 24px;
+  margin: 0px 0px;
+  margin-right: 32px;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px #e7e4e4;
+
+  .artist-snippet-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .artist-snippet-name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .artist-snippet-stats {
+      font-weight: 500;
+      font-size: 14px;
+      color: #6f6f6f;
+      position: relative;
+      top: -10%;
+    }
+
+    .artist-snippet-bio {
+      padding: 0px 38px;
+      position: relative;
+      top: -13%;
+    }
+  }
+
+  .artist-snippet-btn-container {
+    .artist-snippet-btn {
+      width: 100%;
+      height: 48px;
+      background-color: #1b1918;
+      color: white;
+
+      &-outlined {
+        width: 100%;
+        height: 48px;
+      }
+    }
+  }
+
+  .artist-snippet-date-container {
+    position: absolute;
+    bottom: 20px;
+    .artist-snippet-date {
+      font-weight: 500;
+      font-size: 14px;
+      color: #6f6f6f;
+    }
+  }
+}
+
+.artist-snippet-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.view-artist-wrap {
+  padding: 2rem 2.5rem;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 800px) {
+  .view-artist-wrap {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .artist-details-snippet-container {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    padding-bottom: 64px;
+    margin-bottom: 32px;
+  }
+
+  .view-artist-grid {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,151 @@
+.main-container-confirmation {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.loginHeaderConfirmation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  padding-right: 40px;
+}
+
+.loginHeaderConfirmation img {
+  height: 250px;
+  width: 250px;
+  max-height: 250px;
+  max-width: 250px;
+  margin-top: 40px;
+}
+
+.confirmationContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.underReviewIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 600px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.underReviewBackground {
+  position: relative;
+}
+
+.underReview {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left: 150px;
+}
+
+.confirmation-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.confirmation-subtitle {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #6F6F6F;
+  width: 600px;
+  margin-top: 0px;
+}
+
+.exploreBtn {
+  background-color: #1B1918 !important;
+  border-radius: 12px !important;
+  width: 200px;
+  margin-top: 40px !important;
+}
+
+@media (max-width: 960px) {
+  .main-container-confirmation {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 0 30px !important;
+  }
+  .confirmation-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 350px;
+  }
+  .underReviewBackground {
+    position: absolute;
+    height: 350px !important;
+    width: 350px !important;
+    left: 125px !important;
+    top: 20px !important;
+  }
+  .confirmation-subtitle {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #6F6F6F;
+    width: 600px;
+    margin-top: 0px;
+    padding: 0px 135px !important;
+  }
+  .underReview {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 70px;
+    left: 200px;
+  }
+  .exploreBtn {
+    width: 300px !important;
+    margin-top: 20px !important;
+  }
+}
+/*# sourceMappingURL=confirmation.css.map */

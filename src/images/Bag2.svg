@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#130F26" d="m16.43707,21.72989l-8.34778,0c-3.06637,0 -5.41877,-1.1075 -4.75058,-5.5652l0.77804,-6.04117c0.4119,-2.22426 1.83066,-3.07551 3.07551,-3.07551l10.17851,0c1.2631,0 2.5995,0.91533 3.0755,3.07551l0.778,6.04117c0.5675,3.9543 -1.7208,5.5652 -4.7872,5.5652z" clip-rule="evenodd" fill-rule="evenodd" id="Path_33955"/>
+  <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#130F26" d="m16.57437,6.82837c0,-2.38607 -1.9343,-4.32036 -4.3204,-4.32036l0,0c-1.149,-0.00487 -2.2526,0.44816 -3.06679,1.25891c-0.81418,0.81075 -1.27188,1.91244 -1.27187,3.06145l0,0" id="Path_33956"/>
+  <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#130F26" d="m15.21967,11.33189l-0.0457,0" id="Line_192"/>
+  <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#130F26" d="m9.38903,11.33189l-0.04577,0" id="Line_193"/>
+  <path stroke="#130F26" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" d="m19.89399,7.5771l0.03093,0" id="svg_5"/>
+ </g>
+</svg>

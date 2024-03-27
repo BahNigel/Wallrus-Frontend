@@ -1,0 +1,207 @@
+.landingPageLoginBtn {
+  border: 1px solid #1b1918 !important;
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  padding: 5px 20px !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.landingPageLoginBtn:hover {
+  background-color: #f6f7f7 !important;
+}
+
+.landingPageSignupBtn {
+  background-color: #000 !important;
+  border-radius: 8px !important;
+  padding: 5px 20px !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+}
+
+.landingPageSignupBtn:hover {
+  background-color: #1b1918 !important;
+}
+
+.landing-page-background-image {
+  width: 100%;
+}
+
+.landing-page-background-image img {
+  width: 100%;
+}
+
+.landing-page-title {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 40px 0 32px 0;
+  padding: 0 40px;
+}
+
+.landing-page-cards {
+  padding: 0 40px;
+}
+
+.landing-page-card-image {
+  z-index: -1;
+  width: 100%;
+}
+
+.landing-page-card-title {
+  position: absolute;
+  bottom: 50px;
+  left: 50% !important;
+  background-color: #fff;
+  padding: 12px 24px 12px 24px;
+  border-radius: 8px;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  white-space: nowrap;
+}
+
+.landing-page-about-company-container {
+  margin: 60px 0px;
+  background-color: #fef7e6;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.landing-page-about-company-main-container {
+  padding: 0 40px;
+}
+
+.landing-page-about-company-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.landing-page-about-company-subtitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.landing-page-about-company-ideas {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.landing-page-about-company-idea p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.landing-page-about-company-idea img {
+  height: 48px;
+  width: 48px;
+}
+
+.KnowMoreBtn {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  padding: 5px 20px !important;
+  font-size: 16px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  width: 200px;
+}
+
+.KnowMoreBtn:hover {
+  background-color: #1b1918 !important;
+}
+
+.KnowMoreBtn img {
+  margin-left: 10px;
+}
+
+.KnowMoreBtn-container {
+  margin: 40px 0px 10px 0px;
+  text-align: center;
+}
+
+.landing-page-featured-artists {
+  padding: 0px 40px;
+  margin-bottom: 100px;
+}
+
+.landing-page-featured-artists h2 {
+  margin-bottom: 40px;
+}
+
+.landing-page-featured-artists-title-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured-artists-nav-btn {
+  cursor: pointer;
+  margin-left: 15px;
+  height: 35px;
+  width: 35px;
+}
+
+.grid-cols-3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 700px;
+      grid-template-rows: 700px;
+  grid-gap: 50px;
+}
+
+.margin-40 {
+  margin: 40px;
+}
+
+.grid-cols-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-gap: 30px;
+}
+
+@media (max-width: 500px) {
+  .grid-cols-3 {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: (70vh)[3];
+        grid-template-rows: repeat(3, 70vh);
+    grid-gap: 20px;
+  }
+  .grid-cols-4 {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    grid-gap: 20px;
+  }
+}
+/*# sourceMappingURL=landing-page.css.map */

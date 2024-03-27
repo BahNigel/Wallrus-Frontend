@@ -1,0 +1,174 @@
+.currentStep {
+  position: absolute;
+  top: 120px;
+  display: none;
+  color: #6F6F6F;
+}
+
+.signupMainContainer {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  letter-spacing: 0.5px;
+  background-color: #fff;
+}
+
+.left-container {
+  height: calc(100vh - 48px);
+  background-color: #F6F6F6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 24px 40px !important;
+  border-radius: 12px;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 225px;
+  width: 225px;
+  margin-top: -70px;
+  margin-left: -40px;
+  margin-bottom: -70px;
+}
+
+.stepperContainer {
+  background: #F6F6F6 !important;
+  border-radius: 12px;
+}
+
+.right-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  padding-left: 100px !important;
+  padding-bottom: 60px !important;
+  padding-right: 100px !important;
+  position: relative;
+}
+
+.memberStatusSignUpMobile {
+  display: none;
+}
+
+#backButton {
+  height: 40px;
+  width: 40px;
+  border-radius: 6px !important;
+  background-color: #F6F6F6 !important;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#nextButton {
+  width: 130px;
+  height: 48px;
+  margin-top: 45px;
+  background-color: #1B1918;
+  color: #fff;
+}
+
+#nextButton:disabled {
+  background-color: #6F6F6F;
+  color: #fff;
+}
+
+.whiteArrow {
+  margin-left: 9px;
+}
+
+#actionContainer {
+  position: relative !important;
+}
+
+.blackArrow {
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+@media (max-width: 960px) {
+  .left-container {
+    display: none !important;
+  }
+  .right-container {
+    padding-left: 20px !important;
+    padding-bottom: 60px !important;
+    padding-right: 20px !important;
+  }
+  #backButton {
+    height: 40px;
+    width: 40px;
+    border-radius: 6px !important;
+    background-color: #F6F6F6 !important;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    position: relative !important;
+  }
+  .leftArrow {
+    width: 40px;
+    position: absolute;
+    left: 10px;
+  }
+  .logo-mobile {
+    display: block !important;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: -50px;
+    left: -20px;
+  }
+  #nextButton {
+    width: 100%;
+    height: 48px;
+    margin-top: 24px;
+    background-color: #1B1918;
+    position: relative !important;
+  }
+  .whiteArrow {
+    display: none !important;
+  }
+  .currentStep {
+    display: inline;
+  }
+  .memberStatusSignUpMobile {
+    display: block;
+    font-size: 14px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .memberStatusSignUpMobile span {
+    color: #6F6F6F;
+  }
+  .memberStatusSignUpMobile .linkSignUpMobile {
+    color: #1B1918;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .right-container {
+    padding-left: 40px !important;
+    padding-bottom: 60px !important;
+    padding-right: 40px !important;
+  }
+}
+/*# sourceMappingURL=signup.css.map */

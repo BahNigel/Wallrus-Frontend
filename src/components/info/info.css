@@ -1,0 +1,10 @@
+.info {
+  text-align: center;
+  padding: 50px;
+}
+.gap-70 {
+  grid-gap: 70px !important;
+}
+.margin-left-10 {
+  margin-left: 10px;
+}

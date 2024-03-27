@@ -1,0 +1,108 @@
+.editProfileContainer {
+  border-radius: 12px !important;
+}
+
+.back-savechanges-container {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 40px;
+}
+
+.back-savechanges-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.edittab {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  width: 200px !important;
+  padding-right: 40px !important;
+}
+
+.changetab {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  width: 200px !important;
+  padding-right: 40px !important;
+}
+
+.managetab {
+  margin: 0 0 0 -60px !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  width: 100% !important;
+  padding-right: 105px !important;
+}
+
+.settingstab {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  width: 100% !important;
+  padding-right: 105px !important;
+}
+
+.save-button {
+  background-color: #000 !important;
+  color: #ffff !important;
+  font-size: 16px !important;
+  width: 178px;
+  margin-bottom: 10px !important;
+}
+
+.save-button:hover {
+  background-color: #1B1918 !important;
+}
+
+.editprofile-backbtn {
+  background-color: #fff !important;
+  color: #1B1918 !important;
+  font-size: 16px !important;
+  width: 145px;
+  margin-bottom: 10px !important;
+  border: 1px solid #1B1918 !important;
+}
+
+.editprofile-backbtn:hover {
+  background-color: #f6f6f6 !important;
+}
+
+.back-to-top {
+  position: relative;
+  bottom: 50px !important;
+}
+
+.back-to-top .fabIcon {
+  position: absolute;
+  right: 0px;
+  border-radius: 50% !important;
+  padding: 25px !important;
+}
+
+.MuiFab-secondary {
+  background-color: #1B1918 !important;
+}
+/*# sourceMappingURL=EditProfile.css.map */

@@ -1,0 +1,103 @@
+@import "../../AppVariables.scss";
+
+Button {
+  white-space: nowrap;
+  text-transform: none !important;
+  width: 100%;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px !important;
+}
+
+.googleBtn {
+  background-color: $button-gray !important;
+  position: relative;
+}
+
+.facebookBtn {
+  background-color: $button-blue !important;
+  color: $white !important;
+  position: relative;
+}
+
+.facebookImg {
+  margin-top: -8px;
+  margin-right: 5px;
+  height: 28px;
+  width: 28px;
+}
+
+.googleImg {
+  height: 28px;
+  width: 28px;
+  margin-right: 5px;
+}
+
+.orContainer {
+  margin-top: 40px;
+}
+
+.or {
+  line-height: 0.5;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 12px;
+}
+.or span {
+  display: inline-block;
+  position: relative;
+}
+.or span:before,
+.or span:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  border-bottom: 1px solid $line-gray;
+  top: 0;
+  width: 250px;
+}
+.or span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.or span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+@media (max-width: 600px) {
+  .googleImg {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+  }
+
+  .facebookImg {
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  .span-left {
+    margin-left: -30px !important;
+  }
+
+  .loginForm {
+    padding: 0 20px;
+  }
+
+  .googleBtn {
+    font-size: 16px !important;
+  }
+
+  .facebookBtn {
+    font-size: 16px !important;
+  }
+}

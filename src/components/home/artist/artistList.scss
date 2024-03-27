@@ -1,0 +1,100 @@
+.artist {
+  overflow-x: hidden;
+}
+.filter-container-artistList {
+  position: relative;
+  right: 3.8%;
+}
+
+.artist-page-container {
+  cursor: pointer;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 32px 0;
+}
+
+.artist-container {
+  display: flex;
+  overflow-x: hidden !important;
+
+  .artist-list-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+  }
+
+  .artistList-details-container {
+    position: relative;
+    left: 16px;
+    top: -5px;
+
+    .artistList-name {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      height: 32px;
+      margin: 0;
+    }
+
+    .artistList-details {
+      color: #6f6f6f;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      margin: 6px 0 16px;
+    }
+  }
+
+  .artistList-btn-container {
+    padding: 8px 16px;
+    background: #1b1918;
+    border-radius: 8px;
+    max-width: 120px;
+    max-height: 40px;
+  }
+}
+
+.load-more-artists-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 72px 0px 48px 0px;
+
+  .load-more-artists-btn {
+    height: 64px;
+    width: 413px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #1b1918;
+  }
+}
+
+.artist-list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  padding: 0 40px;
+}
+
+.artist-list-wrap {
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .artist-list-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .filter-container-artistList {
+    position: relative;
+    right: 0;
+  }
+
+  .artist-list-wrap {
+    padding: 0 16px;
+  }
+}

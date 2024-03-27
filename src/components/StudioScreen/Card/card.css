@@ -1,0 +1,165 @@
+.tab {
+  width: 135px !important;
+  font-size: 18px !important;
+  white-space: nowrap !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+
+.cart-container {
+  width: calc(100%-340px);
+}
+.card {
+  margin-top: 20px;
+  width: 664px;
+  height: 480px;
+  background: #ffffff;
+  border: 1px solid #dfe1e4;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "AvenirNextMedium" !important;
+  /* identical to box height, or 143% */
+
+  /* Grey/Darkest */
+
+  color: #08090a;
+}
+.uploadtime {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "AvenirNextMedium" !important;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.004em;
+
+  /* Grey/Darker */
+
+  color: #6d747a;
+}
+.cardProfileBox {
+  display: flex;
+  padding-left: 8px;
+  flex-direction: column;
+}
+.cardProfile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+}
+.headerText {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  font-family: "AvenirNextDemi" !important;
+  /* identical to box height, or 133% */
+  margin: 0px 8px;
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+.Image {
+  width: 660px;
+  height: 318px;
+}
+
+.rewardPointsCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 322px;
+  height: 250px;
+  background: #ffffff;
+  border: 1px solid #dfe1e4;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.textheader1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "AvenirNextBold" !important;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+
+.textheader2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "AvenirNextDemi" !important;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+
+.textheader3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 32px;
+  font-family: "AvenirNextBold" !important;
+  /* identical to box height, or 89% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary Color */
+
+  color: #1b1918;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #1b1918;
+}
+.tab {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* grey dark */
+
+  color: #6f6f6f;
+}

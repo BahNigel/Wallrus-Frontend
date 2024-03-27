@@ -1,0 +1,26 @@
+.activity {
+  background-image: linear-gradient(to bottom, rgb(254, 247, 230, 1), rgb(254, 247, 230, 0));
+  padding: 50px;
+
+}
+.activity-banner {
+  display: grid;
+  grid-gap: 30px;
+  width: 350px;
+  margin-right: auto;
+}
+
+@media (max-width: 1025px) {
+  .activity {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .activity-banner {
+    width: 100%;
+    grid-gap: 20px;
+  }
+  .activity-img {
+    width: 100%;
+    margin-top: 30px;
+  }
+}

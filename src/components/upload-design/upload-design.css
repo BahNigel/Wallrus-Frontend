@@ -1,0 +1,206 @@
+.upload-design-cancel {
+  background-color: #ffff !important;
+  color: #1B1918 !important;
+  font-size: 16px !important;
+  width: 140px;
+  margin-left: auto !important;
+  margin-bottom: 10px !important;
+  border: 1px solid #1B1918 !important;
+}
+
+.back-to-top-upload {
+  position: fixed;
+  bottom: 12% !important;
+  right: 7% !important;
+}
+
+.back-to-top-upload .fabIcon {
+  border-radius: 50% !important;
+  padding: 25px !important;
+}
+
+.skeleton {
+  border-radius: 30px !important;
+}
+
+.design-tag-list {
+  margin-top: 10px !important;
+}
+
+.select-app button {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  margin: 10px 10px 0px 0px !important;
+  border-radius: 24px !important;
+  border: 1px solid #DCDCDC !important;
+  padding: 8px 20px !important;
+  cursor: pointer !important;
+}
+
+.select-app .selected-app {
+  background-color: #1B1918 !important;
+  color: #fff !important;
+}
+
+.upload-design-final {
+  background: #1B1918 !important;
+  border-radius: 12px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: #FFFFFF !important;
+  margin-top: 40px !important;
+  height: 60px !important;
+}
+
+.upload-design-final-disabled {
+  background: #6F6F6F !important;
+  border-radius: 12px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: #FFFFFF !important;
+  margin-top: 40px !important;
+  height: 60px !important;
+}
+
+.add-new-colorway {
+  border: 1px solid #1B1918 !important;
+  border-radius: 8px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  color: #1B1918 !important;
+  text-align: left !important;
+  margin: 40px 0px 20px 0 !important;
+  height: 60px !important;
+}
+
+.add-new-colorway:hover {
+  background-color: #fff !important;
+}
+
+.add-new-colorway img {
+  margin-right: 2% !important;
+}
+
+.declaration {
+  margin-top: 20px !important;
+}
+
+.radio-container-upload {
+  padding: 24px 0px 10px 10px;
+}
+
+.radio-btn-upload {
+  border: 1px solid #DCDCDC;
+  padding: 0px 20px 0px 10px;
+  border-radius: 20px;
+}
+
+.radio-btn-upload:focus-within {
+  border: 1px solid #000;
+}
+
+.text-muted-tags-upload {
+  margin-top: -15px !important;
+  margin-bottom: 20px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-muted-tags-upload div {
+  font-size: 12px;
+  color: #6E6E6E;
+  margin-left: 5px;
+}
+
+.text-muted-upload-design {
+  font-size: 12px;
+  color: #6E6E6E;
+  margin-left: 0px;
+  position: relative;
+  top: -2px;
+}
+
+.text-muted-tags-link-wrapper {
+  margin-top: -15px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-muted-tags-link-wrapper img {
+  margin-right: 5px !important;
+}
+
+.autocomplete-input {
+  border-top-left-radius: 12px !important;
+}
+
+.upload-design-form {
+  width: 50%;
+  margin: 5px auto 5px auto !important;
+}
+
+.upload-design-form h2 {
+  font-style: normal;
+  margin-bottom: 0px !important;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1B1918;
+}
+
+.grid-container {
+  display: -ms-inline-grid !important;
+  display: inline-grid !important;
+  -ms-grid-columns: auto auto auto auto auto auto auto auto !important;
+      grid-template-columns: auto auto auto auto auto auto auto auto !important;
+  padding: 10px !important;
+}
+
+.grid-item {
+  border: 2px dashed #dcdcdc !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+  margin: 10px !important;
+  font-size: 30px !important;
+  height: 70px !important;
+  width: 70px !important;
+}
+
+.button-wrapper {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  min-width: 100% !important;
+}
+
+.upload-design-sub-titlee {
+  text-align: center !important;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1B1918;
+}
+
+.upload-design-titlee {
+  font-style: normal;
+  font-weight: bolder !important;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  width: 100% !important;
+}
+/*# sourceMappingURL=upload-design.css.map */

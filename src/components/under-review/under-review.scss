@@ -1,0 +1,64 @@
+.under-review-empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 250px);
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.under-review-empty-text{
+  font-style: normal;
+  margin-top: 20px !important;
+  font-weight: 600;
+  font-size: 16px;
+  color: #1B1918;
+}
+
+.under-review {
+  &-card {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+  } 
+
+  &-image {
+    width: 100%;
+    aspect-ratio: 1; /* 322/322 */
+  }
+
+  &-labels {
+    color: #fff;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.0));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 150px 25px 25px 25px;
+    width: 100%;
+  }
+
+  &-primary-text {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  &-secondary-text {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: "portrait") {
+
+  .makeStyles-mobileUnderReviewEmpty-23
+  {
+    position: relative;
+    left: -15vw !important;
+    
+  }
+
+  
+}

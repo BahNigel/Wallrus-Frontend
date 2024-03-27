@@ -1,0 +1,104 @@
+.account-type-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.memberStatusAccountType {
+  font-size: 14px;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+
+.memberStatusAccountType span {
+  color: #6F6F6F;
+}
+
+.memberStatusAccountType .linkAccountType {
+  color: #1B1918;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.account-type-title {
+  font-size: 28px;
+  color: #1B1918;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+
+.account-type-sub-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 5px;
+  color: #6F6F6F;
+  margin-bottom: 50px;
+}
+
+.radio-cards {
+  max-width: 668px !important;
+  height: 110px;
+  border: 1px solid #DCDCDC;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 10px !important;
+}
+
+.radio-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #1B1918;
+}
+
+.radio-sub-title {
+  margin-top: 0px !important;
+  font-size: 14px;
+  color: #6F6F6F;
+  padding-left: 45px;
+}
+
+@media (max-width: 960px) {
+  .account-type-title {
+    font-size: 18px;
+    color: #1B1918;
+    margin-bottom: 0;
+  }
+  .account-type-sub-title {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #6F6F6F;
+    margin-bottom: 20px;
+  }
+  .radio-cards {
+    max-width: 668px !important;
+    height: 140px !important;
+    border: 1px solid #DCDCDC;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 10px !important;
+  }
+  .radio-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #1B1918;
+  }
+  .radio-sub-title {
+    margin-top: 0px !important;
+    font-size: 14px;
+    color: #6F6F6F;
+    padding-left: 45px;
+  }
+  .memberStatusAccountType {
+    display: none;
+  }
+}
+/*# sourceMappingURL=account-type.css.map */

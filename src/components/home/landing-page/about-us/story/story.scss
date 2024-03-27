@@ -1,0 +1,29 @@
+.story {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px;
+}
+.story > * {
+  margin: 50px 0;
+}
+
+.h1 {
+  font-size: 40px;
+}
+
+.btn-filled {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-weight: 700;
+  width: auto;
+}
+
+@media (max-width: 500px) {
+  .story {
+    width: 100%;
+    padding-top: 0;
+  }
+  .story > * {
+    margin: 30px 0;
+  }
+}

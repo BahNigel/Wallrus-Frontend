@@ -1,0 +1,79 @@
+@import '../../AppVariables.scss';
+
+.main-container-email-verification{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.loginHeaderEmailVerification{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding-right: 40px;
+ 
+  img{
+      height: 250px;
+      width: 250px;
+      max-height: 250px;
+      max-width: 250px;
+      margin-top: 40px;
+  }
+}  
+
+
+.verifyEmailBtn{
+  background-color:$primary-black !important;
+  color:$white !important;
+  padding: 10px 0px !important;
+}
+
+.centerEmailContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  margin-top: 50px;
+  
+  h1{
+    color: $primary-black;
+    font-size: 18px;
+  }
+
+  p{
+      color: $secondary-black;
+      font-size: 14px;
+  }
+
+}
+
+.email-verification-input{
+  margin-top: 64px !important;
+  margin-bottom: 48px !important;
+}
+
+.span-dark{
+  color: $primary-black;
+  font-weight:bold;
+}
+
+
+@media (max-width:960px){
+
+  .main-container-email-verification{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 0px 20px !important;
+  }
+  
+}

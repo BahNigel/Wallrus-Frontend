@@ -1,0 +1,39 @@
+.d-none {
+  opacity: 0;
+}
+
+.text-muted {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 10px;
+  cursor: pointer;
+  /* grey dark */
+  color: #6f6f6f;
+}
+
+.memberStatusMobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .memberStatusMobile {
+    display: block;
+    font-size: 14px;
+    margin: 10px auto;
+  }
+  .memberStatusMobile span {
+    color: #6f6f6f;
+  }
+  .memberStatusMobile .link {
+    color: #1b1918;
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=signin.css.map */

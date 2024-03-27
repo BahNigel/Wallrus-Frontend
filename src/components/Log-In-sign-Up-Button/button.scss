@@ -1,0 +1,12 @@
+@import '../../AppVariables.scss';
+
+.LogIn-Btn,.SignUp-Btn{
+  background-color:$primary-black !important;
+  color:$white !important;
+  padding: 10px 0px !important;
+  margin-top: 40px !important;
+}
+
+.button-loader{
+  color: #fff !important;
+}

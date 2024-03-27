@@ -1,0 +1,59 @@
+.following-artist-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 50px;
+}
+
+.following-artist-container .following-artist-img {
+  width: 110px;
+  height: 110px;
+}
+
+.following-artist-container .following-artist-details-container {
+  position: relative;
+  left: 16px;
+  top: -5px;
+}
+
+.following-artist-container .following-artist-details-container .following-artist-name {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.following-artist-container .following-artist-details-container .following-artist-details {
+  color: #6F6F6F;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  top: -5px;
+}
+
+.following-artist-container .following-artist-btn-container {
+  position: relative;
+  top: -10px;
+}
+
+.following-artist-container .following-artist-btn-container .following-artist-btn {
+  height: 35px !important;
+  width: 150px !important;
+  border: 1px solid #1B1918;
+  border-radius: 8px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.horizontal-break-container {
+  padding: 0px 40px;
+}
+
+.horizontal-break-container .horizontal-break {
+  border: none;
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 24px 0px;
+  width: 95vw;
+}
+/*# sourceMappingURL=user-following.css.map */

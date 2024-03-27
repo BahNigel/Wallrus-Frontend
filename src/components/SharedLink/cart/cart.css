@@ -1,0 +1,18 @@
+.cart-container {
+  padding: 40px 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .cart-container {
+    padding: 20px 0px;
+  }
+}
+
+.cart-container .tab {
+  width: 135px !important;
+  font-size: 18px !important;
+  white-space: nowrap !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/*# sourceMappingURL=cart.css.map */

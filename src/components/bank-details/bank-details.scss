@@ -1,0 +1,70 @@
+@import '../../AppVariables.scss';
+
+.skeleton-bank-details{
+  margin-bottom: 35px;
+}
+
+.submit-button:disabled{
+  color: #fff !important;
+  background-color: $secondary-black;
+}
+
+.skip-and-submit-button:disabled{
+  color: #fff !important;
+  background-color: $secondary-black;
+}
+
+.bank-details-title{
+  font-size: 28px;
+  color: $primary-black;
+  margin-bottom: 0;
+  }
+  
+  .bank-details-sub-title{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 5px;
+    color: $secondary-black;
+    margin-bottom: 50px;
+  }
+
+  .bank-details-input{
+    margin-bottom: 35px !important;
+  }
+
+  .submitButton:first-child{
+    background-color:$primary-black !important;
+    border-radius: 12px !important;
+  }
+  
+.button-loader{
+  color: #fff !important;
+}
+
+  
+.button-loader-skip{
+  color: #000 !important;
+}
+
+  .link{
+    text-decoration: none !important;
+  }
+  
+
+  @media (max-width:960px) {
+
+    .bank-details-title{
+      font-size: 18px;
+      color: $primary-black;
+      margin-bottom: 0;
+      }
+      
+      .bank-details-sub-title{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 5px;
+        color: $secondary-black;
+        margin-bottom: 50px;
+      }
+
+  }

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,CAAC;CACb",
+    "sources": [
+        "signup-email.scss",
+        "../../AppVariables.scss"
+    ],
+    "names": [],
+    "file": "signup-email.css"
+}

@@ -1,0 +1,120 @@
+@import '../../../../../AppVariables.scss';
+
+.wallrus-coins{
+  margin: auto 3%;
+}
+
+.wallrus-coins-header{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #00B879;
+    margin-bottom: -10px !important;
+  }
+  h1{
+    font-weight: 600;
+    font-size: 40px;
+    color: #1B1918;
+    margin-bottom: -10px !important;
+  }
+  p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #1B1918;
+  }
+}
+
+.heading{
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 30px;
+}
+
+.membership-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1B1918;
+
+}
+
+.coins-history{
+  width: 100%;
+}
+
+.coins-history-header{
+  border-bottom: 1px solid #DCDCDC;
+  text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #1B1918;
+    padding: 20px 0px 30px 0px;
+  
+  .description{
+    text-align: left !important;
+  }
+}
+
+.toggle-view-more{
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+display: flex;
+padding: 20px 0px !important;
+justify-content: center;
+color: #1B1918;
+border-bottom: 1px solid #DCDCDC;
+cursor: pointer;
+}
+.coins-history-list-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  border-bottom: 1px solid #DCDCDC;
+  margin-bottom: -15px !important;
+  h6{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1B1918;
+    margin-bottom: -10px !important;
+    
+  }
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #6F6F6F;
+  }
+}
+
+.wallrus-coins-list-items{
+  text-align: center;
+  padding: 30px 0px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.wallrus-coins-list-item-name{
+  text-align: left !important;
+  display: flex;
+  flex-direction: column;
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+    color: #6F6F6F;
+  }
+}
+
+.expand-more-icon-membership{
+  border: 1px solid $profile-border; 
+  border-radius: 50%;
+  padding: 0 !important;
+}

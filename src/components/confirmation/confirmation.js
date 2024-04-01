@@ -1,7 +1,7 @@
 import './confirmation.scss';
 import Logo from '../../images/logo.svg';
 import UnderReviewBackground from '../../images/under-review-background.svg';
-import UnderReview from '../../images/under-review.svg';
+import UnderReview from '../../images/under-review.jpg';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
